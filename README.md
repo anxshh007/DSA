@@ -55,6 +55,6 @@ This repository is an ongoing learning project. Problems will be added consisten
 
 🔗 Profile
 - [Leetcode](https://leetcode.com/u/Anxshwinseverytime/)
-GitHub
+- GitHub
 
 ⭐ If you find this repository useful, feel free to star it!
