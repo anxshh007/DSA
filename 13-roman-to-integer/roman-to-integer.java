@@ -1,29 +1,28 @@
 class Solution {
     public int romanToInt(String s) {
+        int[] v = new int[91];
+        v['I'] = 1;
+        v['V'] = 5;
+        v['X'] = 10;
+        v['L'] = 50;
+        v['C'] = 100;
+        v['D'] = 500;
+        v['M'] = 1000;
+
         int r = 0;
+        int p = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            int a = v(s.charAt(i));
+        for (int i = s.length() - 1; i >= 0; i--) {
+            int a = v[s.charAt(i)];
 
-            if (i < s.length() - 1 && a < v(s.charAt(i + 1)))
+            if (a < p)
                 r -= a;
-            else
+            else {
                 r += a;
+                p = a;
+            }
         }
 
         return r;
-    }
-
-    int v(char c) {
-        switch (c) {
-            case 'I': return 1;
-            case 'V': return 5;
-            case 'X': return 10;
-            case 'L': return 50;
-            case 'C': return 100;
-            case 'D': return 500;
-            case 'M': return 1000;
-        }
-        return 0;
     }
 }
