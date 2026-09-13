@@ -1,3 +1,4 @@
+//anxshh, Using the two pointer Approach, And the run time being O(n).
 class Solution {
     public ListNode removeNthFromEnd(ListNode h, int n) {
         ListNode d = new ListNode(0, h);
