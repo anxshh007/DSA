@@ -1,6 +1,6 @@
 DSA
 
-A collection of my Data Structures and Algorithms solutions, primarily focused on solving problems from LeetCode using Java.
+A collection of my Data Structures and Algorithms solutions, primarily focused on solving problems from LeetCode using Java, and also using Python and C++
 
 This repository is a record of my problem-solving practice, where I focus on understanding algorithms, improving time and space complexity, and writing clean and efficient solutions.
 
