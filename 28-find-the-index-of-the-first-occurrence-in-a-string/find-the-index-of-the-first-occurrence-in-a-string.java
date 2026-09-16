@@ -1,3 +1,4 @@
+//anxshh
 class Solution {
     public int strStr(String s, String p) {
         if (p.length() == 0) return 0;
