@@ -1,3 +1,5 @@
+//anxshh 
+// I have used a sliding-window approach with a frequency map which gives O(n) average time, for running the code. 
 class Solution {
     public List<Integer> findSubstring(String s, String[] w) {
         List<Integer> ans = new ArrayList<>();
