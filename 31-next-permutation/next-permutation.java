@@ -1,3 +1,5 @@
+//anxshh
+//to start of with, we are finding the pivot, and then the successsor and then swapping the elements, and then reversing the index. 
 class Solution {
     public void nextPermutation(int[] a) {
         int n = a.length, i = n - 2;
