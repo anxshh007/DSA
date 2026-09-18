@@ -1,3 +1,4 @@
+//anxshh
 class Solution {
     int[] r = new int[9], c = new int[9], g = new int[9];
 
