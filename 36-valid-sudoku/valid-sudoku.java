@@ -1,4 +1,5 @@
 //anxshh
+//This approach uses three boolean arrays as bitmasks to validate each number's presence across rows, columns, and 3x3 sub-grids in a single pass.
 class Solution {
     public boolean isValidSudoku(char[][] b) {
         int[] r = new int[9], c = new int[9], g = new int[9];
