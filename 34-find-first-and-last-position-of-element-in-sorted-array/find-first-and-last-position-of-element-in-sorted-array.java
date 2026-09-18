@@ -1,3 +1,5 @@
+//anxshh
+//the apporached that i have used, is using binary search twice in order to find out the first occurrence and once to find the last occurrence of the target in the sorted array.
 class Solution {
     public int[] searchRange(int[] a, int t) {
         int l = 0, r = a.length - 1, x = -1, y = -1;
