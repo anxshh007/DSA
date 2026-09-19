@@ -1,3 +1,5 @@
+//anxshh
+//The approach sorts the array and uses backtracking with duplicate-skipping to find all unique combinations that sum to the target without reusing elements at the same position.
 class Solution {
     public List<List<Integer>> combinationSum2(int[] a, int t) {
         List<List<Integer>> r = new ArrayList<>();
