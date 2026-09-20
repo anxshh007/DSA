@@ -1,4 +1,5 @@
 //anxshh
+//The approach uses a two-pointer greedy algorithm with backtracking to match characters, using stored positions whenever an asterisk (*) is encountered to try matching longer sub-sequences.
 class Solution {
     public boolean isMatch(String s, String p) {
         int i = 0, j = 0, m = -1, k = -1;
