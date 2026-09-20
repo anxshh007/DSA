@@ -1,3 +1,5 @@
+//anxshh
+//The approach places each positive integer x into its corresponding index x - 1 using cyclic swaps, then scans to find the first index where the value does not match.
 class Solution {
     public int firstMissingPositive(int[] a) {
         int n = a.length;
