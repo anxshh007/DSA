@@ -1,3 +1,6 @@
+//anxshh
+//The approach uses a greedy strategy to track the furthest reachable index within the current jump's range, incrementing the jump count whenever reaching the end of that range.
+
 class Solution {
     public int jump(int[] a) {
         int j = 0, c = 0, f = 0;
