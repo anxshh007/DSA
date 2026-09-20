@@ -1,3 +1,5 @@
+//anxshh
+//The approach uses two pointers moving inward from both ends, tracking the maximum heights seen so far to accumulate trapped water in O(N) time and O(1) space.
 class Solution {
     public int trap(int[] h) {
         int l = 0, r = h.length - 1, lm = 0, rm = 0, w = 0;
