@@ -1,3 +1,5 @@
+//anxshh
+//The approach that i have used, sorts the array and uses backtracking with a visited array, skipping identical adjacent numbers when their predecessor is unvisited to avoid generating duplicate permutations.
 class Solution {
     public List<List<Integer>> permuteUnique(int[] n) {
         List<List<Integer>> res = new ArrayList<>();
