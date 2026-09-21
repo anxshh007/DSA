@@ -1,3 +1,5 @@
+//anxshh
+//The approach that i have used to solve the problem, uses backtracking with in-place array swapping to explore all permutations without needing extra boolean memory for tracking visited elements.
 class Solution {
     public List<List<Integer>> permute(int[] n) {
         List<List<Integer>> r = new ArrayList<>();
