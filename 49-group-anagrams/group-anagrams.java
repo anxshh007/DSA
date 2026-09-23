@@ -1,3 +1,4 @@
+//anxshh
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> m = new HashMap<>();
@@ -11,3 +12,4 @@ class Solution {
         return new ArrayList<>(m.values());
     }
 }
+//The approach groups anagrams into a hash map using a frequency-based character count array formatted as a unique string key for each word in a single pass.
