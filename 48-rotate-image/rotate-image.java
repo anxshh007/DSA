@@ -1,3 +1,4 @@
+//anxshh
 class Solution {
     public void rotate(int[][] m) {
         int n = m.length;
@@ -17,3 +18,4 @@ class Solution {
         }
     }
 }
+//The approach rotates the matrix in-place by first transposing it across its main diagonal and then reversing each individual row.
