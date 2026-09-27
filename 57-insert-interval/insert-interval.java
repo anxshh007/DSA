@@ -1,3 +1,5 @@
+//anxshh
+//The approach iterates through the intervals, directly adding all non-overlapping intervals before and after the new interval while merging all overlapping intervals into a single range before inserting it.
 class Solution {
     public int[][] insert(int[][] a, int[] n) {
         List<int[]> l = new ArrayList<>();
