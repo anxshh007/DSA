@@ -9,6 +9,7 @@
  * }
  */
  //anxshh
+ //The approach calculates the list length, connects the tail to the head to form a ring, and cuts the loop at the $(L - k \pmod L - 1)$-th node to establish the new head.
 class Solution {
     public ListNode rotateRight(ListNode h, int k) {
         if (h == null || h.next == null || k == 0) return h;
