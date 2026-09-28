@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+ //anxshh
 class Solution {
     public ListNode rotateRight(ListNode h, int k) {
         if (h == null || h.next == null || k == 0) return h;
