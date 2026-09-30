@@ -1,3 +1,5 @@
+//anxshh
+//The approach uses dynamic programming compressed into a 1D array to accumulate the number of unique paths to each cell from left to right, top to bottom, setting path counts to zero whenever an obstacle is encountered.
 class Solution {
     public int uniquePathsWithObstacles(int[][] g) {
         int m = g.length, n = g[0].length, d[] = new int[n];
