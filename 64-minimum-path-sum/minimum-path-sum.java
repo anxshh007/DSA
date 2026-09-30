@@ -1,3 +1,5 @@
+
+//The approach uses dynamic programming in-place (or with a 1D array) to continuously compute the minimum path sum to each cell by taking the cell's value plus the minimum of the values from directly above or to the left.
 class Solution {
     public int minPathSum(int[][] g) {
         int m = g.length, n = g[0].length, d[] = new int[n];
