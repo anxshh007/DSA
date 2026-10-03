@@ -1,3 +1,4 @@
+//The approach greedy fits as many words as possible into a line and then distributes spaces evenly between words using modulo division (or left-justifies for the final line or single-word lines).
 class Solution {
     public List<String> fullJustify(String[] w, int maxWidth) {
         List<String> res = new ArrayList<>();
