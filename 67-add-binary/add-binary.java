@@ -1,3 +1,4 @@
+//The approach uses a two-pointer loop starting from the end of both strings to sum corresponding binary digits and carry, appending the result bit-by-bit to a StringBuilder in $O(N)$ time.
 class Solution {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();
