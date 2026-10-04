@@ -1,3 +1,4 @@
+//The approach uses binary search to find the largest integer m whose square m^2 <= x, taking advantage of integer division to prevent arithmetic overflow.
 class Solution {
     public int mySqrt(int x) {
         if (x < 2) return x;
