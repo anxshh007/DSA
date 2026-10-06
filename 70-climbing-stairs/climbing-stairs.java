@@ -1,4 +1,5 @@
-//You are correct—that specific single-line swap trick fails in Java because operand evaluation order evaluates a on the left before updating a = b on the right, which breaks the Fibonacci progression.
+//The approach calculates the number of ways to climb $n$ stairs by treating it as a Fibonacci sequence, updating two variables iteratively in $O(n)$ time and $O(1)$ space.
+
 class Solution {
     public int climbStairs(int n) {
         int a = 1, b = 1;
