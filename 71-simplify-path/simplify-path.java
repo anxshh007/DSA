@@ -1,3 +1,4 @@
+//anxshh
 class Solution {
     public String simplifyPath(String p) {
         String[] s = p.split("/"), st = new String[s.length];
