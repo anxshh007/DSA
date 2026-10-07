@@ -1,4 +1,4 @@
-//anxshh
+//The approach splits the path by slashes and processes directory names using an array as a stack to skip empty/current directory components and pop for parent directory components.
 class Solution {
     public String simplifyPath(String p) {
         String[] s = p.split("/"), st = new String[s.length];
