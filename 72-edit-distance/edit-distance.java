@@ -1,3 +1,4 @@
+//The approach uses dynamic programming space-optimized to a 1D array to track minimum edit distances while iterating through character transitions.
 class Solution {
     public int minDistance(String a, String b) {
         if (a.length() < b.length()) return minDistance(b, a);
