@@ -1,3 +1,5 @@
+//The Dutch National Flag algorithm uses three pointers to partition the array in a single pass: l tracks the boundary for 0s, r for 2s, and m iterates through the unsorted middle section.
+
 class Solution {
     public void sortColors(int[] a) {
         int l = 0, m = 0, r = a.length - 1;
