@@ -1,3 +1,5 @@
+//The approach uses backtracking with depth-first search (DFS) to explore valid k-element combinations of numbers from 1 to n, pruning early when remaining candidates are insufficient to reach size k.
+
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
