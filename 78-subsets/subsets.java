@@ -1,3 +1,5 @@
+//The approach uses bit manipulation where each integer from $0$ to $2^n - 1$ acts as a bitmask representing whether to include each element in the subset.
+
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
