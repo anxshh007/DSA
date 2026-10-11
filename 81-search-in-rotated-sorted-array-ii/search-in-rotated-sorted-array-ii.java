@@ -1,3 +1,5 @@
+//The approach uses a modified binary search that handles duplicates by shrinking the boundaries when ends match, then identifies the sorted half to efficiently locate the target.
+
 class Solution {
     public boolean search(int[] a, int t) {
         int l = 0, r = a.length - 1;
