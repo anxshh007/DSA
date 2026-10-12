@@ -1,3 +1,5 @@
+//The approach uses a dummy node and a pointer to detect duplicates and skip entire sequences of repeating values in a single pass.
+
 class Solution {
     public ListNode deleteDuplicates(ListNode h) {
         ListNode d = new ListNode(0, h), p = d;
