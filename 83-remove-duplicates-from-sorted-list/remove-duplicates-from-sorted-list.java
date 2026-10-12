@@ -9,7 +9,8 @@
  * }
  */
 
- 
+//The approach iterates through the sorted list, comparing each node's value with the next node's value and bypassing duplicates by updating pointer references in a single pass.
+
 class Solution {
     public ListNode deleteDuplicates(ListNode h) {
         ListNode c = h;
