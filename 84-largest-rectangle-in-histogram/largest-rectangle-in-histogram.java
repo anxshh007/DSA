@@ -1,3 +1,5 @@
+//The approach uses a monotonic increasing stack to efficiently track bar indices and calculate the maximum possible rectangle area whenever a decreasing height breaks the sequence.
+
 class Solution {
     public int largestRectangleArea(int[] h) {
         int n = h.length, m = 0, p = 0;
