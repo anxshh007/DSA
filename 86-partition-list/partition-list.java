@@ -8,6 +8,9 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+//The approach uses two dummy pointers to split the list into separate chains for elements smaller and larger than or equal to x, then links them back together in a single pass.
+
 class Solution {
     public ListNode partition(ListNode h, int x) {
         ListNode d1 = new ListNode(0), d2 = new ListNode(0), p1 = d1, p2 = d2;
