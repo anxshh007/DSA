@@ -1,3 +1,5 @@
+//The approach treats each row as the base of a histogram of consecutive ones, dynamically tracking heights, left boundaries, and right boundaries to compute the maximum rectangle area in linear time per row.
+
 class Solution {
     public int maximalRectangle(char[][] m) {
         if (m.length == 0) return 0;
