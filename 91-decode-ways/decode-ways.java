@@ -1,3 +1,5 @@
+// The approach uses bottom-up dynamic programming maintaining counts of valid single and double digit decodings using two scalar variables.
+
 class Solution {
     public int numDecodings(String s) {
         if (s == null || s.length() == 0 || s.charAt(0) == '0') return 0;
