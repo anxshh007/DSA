@@ -1,3 +1,5 @@
+//The approach uses memoized recursion to recursively check if string partitioning splits match directly or in swapped order.
+
 class Solution {
     Boolean[][][] m;
     public boolean isScramble(String s1, String s2) {
