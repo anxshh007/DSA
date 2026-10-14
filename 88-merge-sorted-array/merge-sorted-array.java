@@ -1,3 +1,5 @@
+//The approach fills array nums1 backwards from the last index using three pointers to merge the elements in O(m + n) time with O(1) extra space.
+
 class Solution {
     public void merge(int[] a, int m, int[] b, int n) {
         int i = m - 1, j = n - 1, k = m + n - 1;
