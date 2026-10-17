@@ -1,3 +1,5 @@
+//the approach used is backtracking aur zero-allocation character array se sare valid IP segments depth-first tree traversal se extract hote hain. 
+
 class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> res = new ArrayList<>();
