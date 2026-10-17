@@ -14,6 +14,8 @@
  * }
  */
 
+// The apporach used is Morris Traversal which uses the tree's threaded binary structure to visit nodes in left-root-right order with O(1) extra space by linking a node's predecessor back to itself.
+
 class Solution {
     public List<Integer> inorderTraversal(TreeNode r) {
         List<Integer> l = new ArrayList<>();
