@@ -1,3 +1,5 @@
+//the apporach use A simple recursive approach using dynamic programming counts valid structural binary search trees for each sub-problem size.
+
 class Solution {
     public int numTrees(int n) {
         int[] dp = new int[n + 1];
