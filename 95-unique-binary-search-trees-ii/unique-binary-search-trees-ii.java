@@ -13,6 +13,9 @@
  *     }
  * }
  */
+
+//Recursively construct all unique subtrees for every range [s,e] by picking each number as a root and combining all valid left and right subtrees.
+
 class Solution {
     List<TreeNode>[][] m;
 
