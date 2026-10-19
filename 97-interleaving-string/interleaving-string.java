@@ -1,3 +1,5 @@
+//The approach Uses 1D dynamic programming where dp[j] tracks whether s3[0...i+j-1] can be formed by interleaving s1[0...i-1] and s2[0...j-1].
+
 class Solution {
     public boolean isInterleave(String a, String b, String c) {
         int m = a.length(), n = b.length();
