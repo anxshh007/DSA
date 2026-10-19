@@ -13,6 +13,9 @@
  *     }
  * }
  */
+
+//The approach, Performs an in-order traversal using an iterative approach (or recursion with global/state tracking) to ensure that every node's value is strictly greater than the previously visited node's value.
+
 class Solution {
     TreeNode p;
 
