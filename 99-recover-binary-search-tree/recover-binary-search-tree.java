@@ -13,6 +13,9 @@
  *     }
  * }
  */
+
+//In-order traversal of a Binary Search Tree produces a strictly increasing sequence, so we use Morris Traversal (an $O(1)$ auxiliary space in-order traversal) to locate the two swapped nodes where the sorted order is broken, then swap their values back.
+
 class Solution {
     public void recoverTree(TreeNode root) {
         TreeNode x = null, y = null, p = null, c = root, t = null;
