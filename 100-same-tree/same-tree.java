@@ -14,7 +14,7 @@
  * }
  */
 
-
+//The solution uses recursion to check if two binary trees are identical by simultaneously comparing their node values and structure.
 
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
