@@ -1,3 +1,5 @@
+#The Approach simulates the zigzag movement by tracking the current row and reversing direction whenever we hit the top or bottom boundaries.
+
 class Solution:
     def convert(self, s: str, r: int) -> str:
         if r == 1 or r >= len(s):
