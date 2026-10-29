@@ -1,3 +1,6 @@
+#Approach: Extracts the first valid signed integer sequence from the string using a regular expression, parses it, and clamps the result to the 32-bit signed integer range.
+
+
 import re
 
 
