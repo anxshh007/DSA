@@ -1,3 +1,6 @@
+#Approach: Uses a fast pointer advanced by n + 1 steps so that when it reaches the end, the slow pointer sits right before the target node for a clean one-pass deletion.
+
+
 class Solution:
 
   def removeNthFromEnd(self, h: Optional[ListNode], n: int) -> Optional[ListNode]:
