@@ -1,3 +1,5 @@
+#Approach: Sorts the array and uses two nested loops combined with a two-pointer scan while skipping duplicates to find all unique quadruplets summing to the target.
+
 class Solution:
     def fourSum(self, nums: list[int], target: int) -> list[list[int]]:
         n, s = len(nums), sorted(nums)
