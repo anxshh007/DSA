@@ -1,4 +1,3 @@
-//anxshh
 class Solution {
     public int strStr(String s, String p) {
         if (p.length() == 0) return 0;
@@ -16,7 +15,6 @@ class Solution {
             }
         }
 
-        // KMP search
         for (int i = 0, j = 0; i < s.length();) {
             if (s.charAt(i) == p.charAt(j)) {
                 i++;
