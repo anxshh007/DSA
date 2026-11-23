@@ -6,7 +6,7 @@ This repository is a record of my problem-solving practice, where I focus on und
 
 📚 Problems
 
-The solutions are organized by LeetCode problem number and problem name.
+The solutions are organized by LeetCode problem number and a serial order of the problem names, given to it methodically.
 
 #	Problem	Topic
 1	Two Sum	Array, Hash Table
