@@ -1,4 +1,3 @@
-
 class Solution {
     public boolean isValidSudoku(char[][] b) {
         int[] r = new int[9], c = new int[9], g = new int[9];
