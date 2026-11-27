@@ -1,4 +1,4 @@
-### Substring with Concatenation of All Words — Solution Breakdown & Code Walkthrough
+### Substring with Concatenation of All Words — Solution Breakdown & Code Walkthrough and Analysis
 
 #### Overview
 
