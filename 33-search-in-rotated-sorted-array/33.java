@@ -1,4 +1,4 @@
-//anxshh
+
 //This code runs a modified binary search that checks which half of the array is strictly sorted, then narrows the search range by determining if the target falls within that sorted half.
 class Solution {
     public int search(int[] a, int t) {
